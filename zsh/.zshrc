@@ -140,5 +140,3 @@ export PATH=$PATH:/home/david/.spicetify
 
 # To customize prompt, run `p10k configure` or edit ~/dotfiles/zsh/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-ZSH_THEME="powerlevel10k/powerlevel10k"
