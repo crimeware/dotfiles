@@ -1,4 +1,4 @@
-<h1 align="center">Dotfiles</h1>
+<h1 align="center">. files</h1>
 
 <p align="center">
 	<a href="https://github.com/dav-med/dotfiles/stargazers">
