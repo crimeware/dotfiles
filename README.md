@@ -1,4 +1,4 @@
-<h1 align="center"> Hyprland Catppuccin Mocha </h1>
+<h1 align="center">Dotfiles</h1>
 
 <p align="center">
 	<a href="https://github.com/dav-med/dotfiles/stargazers">
@@ -10,7 +10,3 @@
 	<a href="https://github.com/dav-med/dotfiles/contributors">
 		<img alt="Discord" src="https://img.shields.io/github/contributors/dav-med/dotfiles?style=for-the-badge&logo=Gitea&color=74C7EC&logoColor=D9E0EE&labelColor=1e1e2e"></a>
 </p>
-
-<br/>
-
-<img src="https://github.com/dav-med/dotfiles/blob/main/screenshots/showcase.png"/>
