@@ -1,29 +1,6 @@
 #!/bin/bash
 
-echo "IMPORTANT!!! MANDATORY READ BEFORE CONTINUING!"
-echo "    DISCLAIMER: The creator is not responsible for anything this script might do."
-echo
-echo
-echo "    This script was put together in a few hours and only tested a few times on a single machine, so weird stuff might happen."
-echo "    In it's current form it works for the creator."
-echo "    However in theory it should work for other users given they have the software to be configured installed."
-echo "    In the case the software is not installed this should not stop the proccess from function beyound throwing a few errors along the way since it looks for certain things to backup."
-echo "    If they are not available it just fails to back them up which should not be an issue as it continues backing up what it's available."
-echo
-echo
-echo "    Something to note is that you will require 'rsync' and 'stow' (popular standard tools) in order for this to work."
-echo "    If you don't the process will ask you to install them before running again."
-echo "    I also advise you to take a look at the scrips and probably remove what you don't want, special attention to the fact this replaces your ZSH files if you use that."
-echo "    Meaning environments variables, etc, but the ones I use in these files are standard."
-echo "    Also, to avoid weird stuff just close your WM and run this on the TTY instead. You will have to close and open Hyprland anyway for certain stuff to kick in."
-echo
-echo "    In case you can't read this script you should probably not run it."
-echo "    Besides, installing and tweaking manually is interesting the first few times."
-echo
-echo
-echo "    By running this you confirm you have read the above."
-echo
-echo -n  "Accept and run it anyway? (N/y): "
+echo -n  "Install dotfiles? (N/y): "
 read RUN
 echo
 
