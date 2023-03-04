@@ -46,7 +46,6 @@ tooltip {
     border-radius: 11;
 }
 
-#window,
 #workspaces {
     margin: 0 4px;
 }
@@ -110,4 +109,8 @@ tooltip {
     padding: 0 10px;
     margin: 0 4px;
     color: @teal;
+}
+
+#window {
+    color: @text;
 }

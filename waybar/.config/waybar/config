@@ -13,6 +13,9 @@
         "wlr/workspaces",
         "custom/spotify"
     ],
+    "modules-center": [
+        "hyprland/window"
+    ],
     "modules-right": [
         "pulseaudio",
         "network",
@@ -29,6 +32,10 @@
         "on-click": "playerctl play-pause",
         "on-scroll-up": "playerctl next",
         "on-scroll-down": "playerctl previous"
+    },
+    "hyprland/window": {
+        "format": "{}",
+        "separate-outputs": true
     },
     "wlr/workspaces": {
         "format": "{icon}",
