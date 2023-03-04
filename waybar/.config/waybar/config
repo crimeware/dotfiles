@@ -9,16 +9,34 @@
     "margin-left": 16,
     "margin-bottom": 0,
     // Choose the order of the modules
-    "modules-left": ["wlr/workspaces"],
-    "modules-right": ["pulseaudio", "network", "cpu", "memory", "clock", "tray"],
+    "modules-left": [
+        "wlr/workspaces",
+        "custom/spotify"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "cpu",
+        "memory",
+        "clock",
+        "tray"
+    ],
     // Modules configuration
+    "custom/spotify": {
+        "exec": "/usr/bin/python3 $HOME/.config/waybar/mediaplayer.py --player spotify",
+        "format": "{}  ",
+        "return-type": "json",
+        "on-click": "playerctl play-pause",
+        "on-scroll-up": "playerctl next",
+        "on-scroll-down": "playerctl previous"
+    },
     "wlr/workspaces": {
         "format": "{icon}",
         "on-click": "activate",
         "format-icons": {
-          "urgent": "",
-          "active": "",
-          "default": ""
+            "urgent": "",
+            "active": "",
+            "default": ""
         },
         "sort-by-number": true,
         "on-scroll-up": "hyprctl dispatch workspace e+1",
@@ -64,9 +82,12 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": [
+                "",
+                "",
+                ""
+            ]
         },
         "on-click": "~/.config/dunst/scripts/volume mute"
     }
 }
-

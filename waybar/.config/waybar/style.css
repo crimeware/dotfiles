@@ -31,7 +31,7 @@ button {
 tooltip {
     color: @text;
     background-color: rgba(30, 30, 46, 0.5);
-    border: 3px solid @teal;
+    border: 2px solid @teal;
 }
 
 #clock,
@@ -43,7 +43,6 @@ tooltip {
 #tray {
     min-width: 100px;
     padding: 0 10px;
-    color: @base;
     border-radius: 11;
 }
 
@@ -107,3 +106,8 @@ tooltip {
     color: @red;
 }
 
+.custom-spotify {
+    padding: 0 10px;
+    margin: 0 4px;
+    color: @teal;
+}
