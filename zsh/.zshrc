@@ -121,6 +121,7 @@ plugins=(git sudo web-search copybuffer copypath vi-mode jsontools)
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias code='code --enable-features=UseOzonePlatform --ozone-platform=wayland'
 alias spotify='LD_PRELOAD=/usr/lib/spotifywm.so spotify --enable-features=UseOzonePlatform --ozone-platform=wayland'
+alias chrome='google-chrome-stable'
 
 ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
 if [[ ! -d $ZSH_CACHE_DIR ]]; then
@@ -140,3 +141,4 @@ export PATH=$PATH:/home/david/.spicetify
 
 # To customize prompt, run `p10k configure` or edit ~/dotfiles/zsh/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
